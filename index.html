@@ -83,32 +83,65 @@
     <h2>About Me</h2>
 
     <p>
-        My name is Arsly Mwamwaya, a Bachelor of Education in Geography student
-        at the University of Malawi. I was born on 21 January 2003 and was born
-        and raised in Mzuzu. I have also spent some years in Chitipa and different
-        parts of Southern Malawi, experiences that have helped me understand
-        diverse communities and environments.
-    </p>
+        <section id="about" class="section about-section">
+  <p class="eyebrow">01 / ABOUT ME</p>
 
-    <p>
-        I am passionate about education, geography, and continuous personal growth.
-        My goal is to develop my professionalism as an educator and contribute
-        towards creating meaningful learning experiences for students in Malawi
-        and wherever my teaching journey may take me.
-    </p>
+  <button class="about-title" onclick="toggleAbout()">
+    Who is Arsly? <span>+</span>
+  </button>
 
-    <p>
-        As a student, I am open to volunteering opportunities in teaching and
-        educational activities where I can gain experience, share knowledge,
-        and contribute positively to learners and communities.
-    </p>
+  <div id="aboutContent" class="about-content">
 
-    <p>
-        I believe that every student deserves quality education and the opportunity
-        to discover their potential. Through teaching, I hope to inspire learners
-        to experience the value and greatness of education.
-    </p>
-    </section>
+    <button class="about-item" onclick="toggleInfo('nameInfo')">
+      <span>Full Name</span>
+      <span>+</span>
+    </button>
+
+    <div id="nameInfo" class="info-content">
+      <p>Arsly Mwamwaya</p>
+    </div>
+
+    <button class="about-item" onclick="toggleInfo('educationInfo')">
+      <span>Education</span>
+      <span>+</span>
+    </button>
+
+    <div id="educationInfo" class="info-content">
+      <p>
+        Bachelor of Education in Geography — University of Malawi.
+      </p>
+    </div>
+
+    <button class="about-item" onclick="toggleInfo('geographyInfo')">
+      <span>Geography</span>
+      <span>+</span>
+    </button>
+
+    <div id="geographyInfo" class="info-content">
+      <p>
+        I'm passionate about geography, people, places, environments
+        and understanding how the world around us works.
+      </p>
+    </div>
+
+    <button class="about-item" onclick="toggleInfo('poetInfo')">
+      <span>Poet & Writer</span>
+      <span>+</span>
+    </button>
+
+    <div id="poetInfo" class="info-content">
+      <p>
+        I'm a poet and writer. I use words to turn thoughts, experiences
+        and emotions into something people can connect with.
+      </p>
+
+      <a href="#poetry" class="poetry-link">
+        Explore my poetry →
+      </a>
+    </div>
+
+  </div>
+        </section>
 <section>
     <h2>Contact</h2>
     <p>
