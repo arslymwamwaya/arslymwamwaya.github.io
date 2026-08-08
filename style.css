@@ -56,3 +56,84 @@ nav a {
 header img {
     border-radius: 50%;
 }
+/* =========================
+   ABOUT ME
+========================= */
+
+.about-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  text-align: left;
+  font: 600 clamp(2.5rem, 6vw, 5rem)/1 "Space Grotesk";
+  letter-spacing: -3px;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.about-title span {
+  color: var(--accent);
+  font-size: 2rem;
+  transition: transform .3s;
+}
+
+.about-content {
+  display: none;
+  margin-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.about-content.show {
+  display: block;
+}
+
+.about-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  padding: 24px 5px;
+  font: 500 1.1rem "Space Grotesk";
+  cursor: pointer;
+  text-align: left;
+}
+
+.about-item:hover {
+  color: var(--accent);
+}
+
+.about-item span:last-child {
+  color: var(--accent);
+  font-size: 1.3rem;
+}
+
+.info-content {
+  display: none;
+  padding: 20px 5px 25px;
+  color: var(--muted);
+  border-bottom: 1px solid var(--line);
+}
+
+.info-content.show {
+  display: block;
+}
+
+.info-content p {
+  max-width: 700px;
+}
+
+.poetry-link {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--accent);
+  font-weight: 700;
+}
