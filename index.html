@@ -1,300 +1,641 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WXZ30GXF70"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WXZ30GXF70');
-</script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="google-site-verification" content="aHWTP-7OyORbxOKA_j_qFs72oGD7iE6NcJ_b2AH8HeE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Arsly Mwamwaya | Personal Portfolio</title>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WXZ30GXF70"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-WXZ30GXF70');
+    </script>
 
-<meta name="description" content="Official personal website of Arsly Mwamwaya, a second-year Geography student at the University of Malawi, future educator, poet and lifelong learner.">
+    <meta name="google-site-verification" content="aHWTP-7OyORbxOKA_j_qFs72oGD7iE6NcJ_b2AH8HeM">
 
-<meta name="author" content="Arsly Mwamwaya">
+    <title>Arsly Mwamwaya | Geography, Writing & Digital Creativity</title>
 
-<meta name="keywords" content="Arsly Mwamwaya, Geography student, University of Malawi, education, Malawi, poet, writer">
+    <meta name="description" content="The official website of Arsly Mwamwaya — Geography student, educator in training, poet, writer and digital creator from Malawi. Explore his work, resources, services and poetry.">
 
-<meta name="robots" content="index, follow">
+    <meta name="author" content="Arsly Mwamwaya">
+    <meta name="keywords" content="Arsly Mwamwaya, Malawi, Geography, University of Malawi, Geography student, poet, writer, education, website creation, study guides">
 
-<link rel="stylesheet" href="style.css">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0b0d10">
 
-</head><body><!-- Navigation --><nav>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#goals">Goals</a>
-    <a href="#interests">Interests</a>
-    <a href="#poetry">Poetry</a>
-    <a href="#contact">Contact</a>
-</nav><!-- Hero Section --><header>
-    <img src="profile.jpg" alt="Arsly Mwamwaya" width="150"><h1>Arsly Mwamwaya</h1>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-<p>
-    Geography Student | Future Educator | Poet | Lifelong Learner
-</p>
+<body>
 
-</header><hr><!-- Introduction --><section class="intro-section"><h2>Geography Student at the University of Malawi</h2>
+<!-- ================= NAVIGATION ================= -->
 
-<p>
-    Welcome to my personal website. I share my academic journey,
-    goals, interests, creativity, and experiences as I continue
-    growing into an educator and lifelong learner.
-</p>
+<nav class="navbar">
+    <div class="nav-logo">AM.</div>
 
-<a href="https://wa.me/265981387676" target="_blank">
-    Contact Me on WhatsApp
-</a>
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#store">Store</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
 
-<a href="mailto:arslymwamwaya9@gmail.com">
-    Email Me
-</a>
 
-</section><!-- About Section --><section id="about" class="section about-section"><p class="eyebrow">01 / ABOUT ME</p>
+<!-- ================= HERO ================= -->
 
-<button class="about-title" onclick="toggleAbout()">
-    Who is Arsly? <span>+</span>
-</button>
+<header class="hero">
 
-<div id="aboutContent" class="about-content">
-
-    <!-- Full Name -->
-    <button class="about-item" onclick="toggleInfo('nameInfo')">
-        <span>Full Name</span>
-        <span>+</span>
-    </button>
-
-    <div id="nameInfo" class="info-content">
-        <p>Arsly Mwamwaya</p>
+    <div class="hero-image-wrap">
+        <img src="profile.jpg" alt="Arsly Mwamwaya" class="profile-image">
     </div>
 
+    <p class="eyebrow">GEOGRAPHY • EDUCATION • WRITING • DIGITAL</p>
 
-    <!-- Education -->
-    <button class="about-item" onclick="toggleInfo('educationInfo')">
-        <span>Education</span>
-        <span>+</span>
-    </button>
+    <h1>
+        Arsly<br>
+        <span>Mwamwaya</span>
+    </h1>
 
-    <div id="educationInfo" class="info-content">
-        <p>
-            I am a second-year Bachelor of Education in Geography
-            student at the University of Malawi.
-        </p>
-    </div>
-
-
-    <!-- Geography -->
-    <button class="about-item" onclick="toggleInfo('geographyInfo')">
-        <span>Geography</span>
-        <span>+</span>
-    </button>
-
-    <div id="geographyInfo" class="info-content">
-        <p>
-            I am passionate about geography, people, places,
-            environments, and understanding how the world around
-            us works.
-        </p>
-    </div>
-
-
-    <!-- Poet and Writer -->
-    <button class="about-item" onclick="toggleInfo('poetInfo')">
-        <span>Poet & Writer</span>
-        <span>+</span>
-    </button>
-
-    <div id="poetInfo" class="info-content">
-        <p>
-            I am a poet and writer. I use words to turn thoughts,
-            experiences, and emotions into something people can
-            connect with.
-        </p>
-
-        <a href="#poetry" class="poetry-link">
-            Explore my poetry →
-        </a>
-    </div>
-
-
-    <!-- Lifelong Learner -->
-    <button class="about-item" onclick="toggleInfo('learnerInfo')">
-        <span>Lifelong Learner</span>
-        <span>+</span>
-    </button>
-
-    <div id="learnerInfo" class="info-content">
-        <p>
-            I believe learning does not end in the classroom.
-            I am constantly interested in developing new skills,
-            discovering new ideas, and becoming a better version
-            of myself.
-        </p>
-    </div>
-
-</div>
-
-</section><!-- Education Section --><section id="education"><h2>Education</h2>
-
-<p>
-    <strong>Bachelor of Education in Geography</strong><br>
-    University of Malawi
-</p>
-
-<p>
-    Currently in my second year, building my knowledge and skills
-    in geography and education as I prepare for a career in teaching.
-</p>
-
-</section><!-- Goals Section --><section id="goals"><h2>My Goals</h2>
-
-<ul>
-    <li>
-        Become an excellent educator and contribute to quality
-        education.
-    </li>
-
-    <li>
-        Continue developing my academic, professional, and
-        digital skills.
-    </li>
-
-    <li>
-        Use geographical knowledge to understand and contribute
-        to solving real-world challenges.
-    </li>
-
-    <li>
-        Gain valuable teaching experience and continue advancing
-        my education with the long-term goal of becoming a lecturer.
-    </li>
-
-    <li>
-        Use creativity, writing, and technology to communicate
-        ideas and inspire others.
-    </li>
-</ul>
-
-</section><!-- Interests Section --><section id="interests"><h2>Interests</h2>
-
-<ul>
-    <li>Geography and environmental studies</li>
-    <li>Education and learning</li>
-    <li>Technology and digital skills</li>
-    <li>Music and creativity</li>
-    <li>Poetry and writing</li>
-    <li>Learning new ideas</li>
-</ul>
-
-</section><!-- Poetry Section --><section id="poetry" class="section poetry-section"><p class="eyebrow">POETRY / WORDS</p>
-
-<h2>
-    Some thoughts<br>
-    <span>became poems.</span>
-</h2>
-
-<p class="poetry-intro">
-    Poetry is one of the ways I turn thoughts, experiences,
-    and emotions into words.
-</p>
-
-
-<!-- Poem Card -->
-<div class="poem-card">
-
-    <div class="poem-header">
-        <span>01</span>
-        <span>POEM</span>
-    </div>
-
-    <h3>FAMOUS VOWS</h3>
-
-    <p>
-        <strong>FAMOUS VOWS</strong> is a poem that talks about
-        promises made before marriage and the realities that can
-        sometimes follow within marriage. The poem presents the
-        voice of a woman speaking with her husband.
+    <p class="hero-description">
+        Geography student, educator in training, poet and digital creator
+        building ideas through knowledge, creativity and technology.
     </p>
 
-    <div class="poem-actions">
+    <div class="hero-buttons">
+        <a href="#work" class="button primary">Explore My Work ↓</a>
+        <a href="#services" class="button secondary">Work With Me →</a>
+    </div>
 
-        <a href="poems/FAMOUS-VOWS-poem-by-Arsly-Mwamwaya.pdf"
-           class="btn primary"
-           target="_blank">
-            Read poem ↗
-        </a>
+</header>
 
-        <a href="poems/FAMOUS-VOWS-poem-by-Arsly-Mwamwaya.pdf"
-   class="btn ghost"
-   download
-   onclick="gtag('event', 'poem_download', {
-       'poem_name': 'FAMOUS VOWS'
-   });">
-    Download PDF ↓
-</a>
+
+<main>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section">
+
+    <p class="eyebrow">01 / ABOUT</p>
+
+    <div class="section-heading">
+        <h2>Who is Arsly?</h2>
+        <p>
+            A student, creator and lifelong learner using education,
+            writing and technology to build something meaningful.
+        </p>
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-card">
+            <span>01</span>
+            <h3>Education</h3>
+            <p>
+                Bachelor of Education in Geography student at the
+                University of Malawi.
+            </p>
+        </div>
+
+        <div class="about-card">
+            <span>02</span>
+            <h3>Geography</h3>
+            <p>
+                Interested in people, places, environments and the
+                geographical processes that shape our world.
+            </p>
+        </div>
+
+        <div class="about-card">
+            <span>03</span>
+            <h3>Writing</h3>
+            <p>
+                A poet and writer who turns thoughts, experiences and
+                emotions into words.
+            </p>
+        </div>
+
+        <div class="about-card">
+            <span>04</span>
+            <h3>Digital Skills</h3>
+            <p>
+                Exploring websites, digital content and technology
+                while continuously developing new skills.
+            </p>
+        </div>
 
     </div>
 
-</div>
-
-</section><!-- Contact Section --><section id="contact"><h2>Contact Me</h2>
-
-<p>
-    This website is my personal space where I share my journey,
-    achievements, creativity, and future goals.
-</p>
-
-<p>
-    For volunteering opportunities, collaborations, or
-    professional communication, feel free to get in touch.
-</p>
+</section>
 
 
-<!-- WhatsApp -->
-<p>
-    <a href="https://wa.me/265981387676" target="_blank">
-        WhatsApp: +265 981 387 676
-    </a>
-</p>
+<!-- ================= WHAT I CREATE ================= -->
+
+<section id="work" class="section dark-section">
+
+    <p class="eyebrow">02 / WHAT I CREATE</p>
+
+    <div class="section-heading">
+        <h2>Things worth<br><span>sharing.</span></h2>
+        <p>
+            My work sits where education, creativity and digital
+            technology meet.
+        </p>
+    </div>
+
+    <div class="work-list">
+
+        <article class="work-item">
+            <div class="work-number">01</div>
+            <div>
+                <h3>Geography & Education</h3>
+                <p>
+                    Explanations, study materials and educational
+                    resources designed to make learning easier.
+                </p>
+            </div>
+        </article>
+
+        <article class="work-item">
+            <div class="work-number">02</div>
+            <div>
+                <h3>Poetry & Writing</h3>
+                <p>
+                    Original poems and written pieces inspired by
+                    relationships, life, thoughts and experiences.
+                </p>
+            </div>
+        </article>
+
+        <article class="work-item">
+            <div class="work-number">03</div>
+            <div>
+                <h3>Digital Projects</h3>
+                <p>
+                    Websites, digital content and experiments with
+                    technology.
+                </p>
+            </div>
+        </article>
+
+    </div>
+
+</section>
 
 
-<!-- Email -->
-<p>
-    <a href="mailto:arslymwamwaya9@gmail.com">
-        Email: arslymwamwaya9@gmail.com
-    </a>
-</p>
+<!-- ================= POETRY ================= -->
 
-</section><!-- Footer --><footer><p>
-    © 2026 Arsly Mwamwaya
-</p>
+<section id="poetry" class="section">
 
-</footer><!-- About Section JavaScript --><script>
+    <p class="eyebrow">03 / POETRY</p>
 
-function toggleAbout() {
-    const content = document.getElementById("aboutContent");
+    <div class="section-heading">
+        <h2>Some thoughts<br><span>became poems.</span></h2>
 
-    if (content.style.display === "none" || content.style.display === "") {
-        content.style.display = "block";
-    } else {
-        content.style.display = "none";
-    }
-}
+        <p>
+            Poetry is one of the ways I turn thoughts, experiences
+            and emotions into something people can connect with.
+        </p>
+    </div>
 
 
-function toggleInfo(id) {
-    const content = document.getElementById(id);
+    <article class="product-card featured">
 
-    if (content.style.display === "none" || content.style.display === "") {
-        content.style.display = "block";
-    } else {
-        content.style.display = "none";
-    }
-}
+        <div class="product-top">
+            <span>01 / POEM</span>
+            <span>FREE</span>
+        </div>
 
-</script></body>
+        <h3>FAMOUS VOWS</h3>
+
+        <p>
+            A poem about promises made before marriage and the
+            realities that can sometimes follow within marriage,
+            presented through the voice of a woman speaking with
+            her husband.
+        </p>
+
+        <div class="product-actions">
+
+            <a
+                href="poems/FAMOUS-VOWS-poem-by-Arsly-Mwamwaya.pdf"
+                target="_blank"
+                class="button primary"
+                onclick="trackEvent('poem_read', 'FAMOUS VOWS')">
+                Read Poem ↗
+            </a>
+
+            <a
+                href="poems/FAMOUS-VOWS-poem-by-Arsly-Mwamwaya.pdf"
+                download
+                class="button secondary"
+                onclick="trackEvent('poem_download', 'FAMOUS VOWS')">
+                Download PDF ↓
+            </a>
+
+        </div>
+
+    </article>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section id="services" class="section dark-section">
+
+    <p class="eyebrow">04 / SERVICES</p>
+
+    <div class="section-heading">
+        <h2>Need something<br><span>created?</span></h2>
+        <p>
+            I offer practical digital, creative and educational
+            services. Prices below are starting prices and can vary
+            depending on the project.
+        </p>
+    </div>
+
+
+    <div class="service-grid">
+
+        <article class="service-card">
+            <span>01</span>
+            <h3>Personal Website</h3>
+            <p>
+                Simple personal, portfolio or professional websites
+                suitable for students, creators and individuals.
+            </p>
+            <strong>From MK50,000</strong>
+        </article>
+
+        <article class="service-card">
+            <span>02</span>
+            <h3>Website Editing</h3>
+            <p>
+                Updates, corrections, content changes and basic
+                maintenance for existing websites.
+            </p>
+            <strong>From MK15,000</strong>
+        </article>
+
+        <article class="service-card">
+            <span>03</span>
+            <h3>CV / Resume</h3>
+            <p>
+                Clean, professional CV formatting and improvement
+                for students and job seekers.
+            </p>
+            <strong>From MK10,000</strong>
+        </article>
+
+        <article class="service-card">
+            <span>04</span>
+            <h3>Presentations</h3>
+            <p>
+                Well-structured PowerPoint presentations for academic
+                and professional purposes.
+            </p>
+            <strong>From MK15,000</strong>
+        </article>
+
+        <article class="service-card">
+            <span>05</span>
+            <h3>Writing</h3>
+            <p>
+                Original creative writing, speeches, captions and
+                other writing support.
+            </p>
+            <strong>From MK10,000</strong>
+        </article>
+
+        <article class="service-card">
+            <span>06</span>
+            <h3>Geography Tutoring</h3>
+            <p>
+                One-on-one help understanding Geography concepts,
+                revision and study preparation.
+            </p>
+            <strong>From MK10,000</strong>
+        </article>
+
+        <article class="service-card">
+            <span>07</span>
+            <h3>Digital Assistance</h3>
+            <p>
+                Help with basic digital tasks, online projects,
+                documents and technology-related work.
+            </p>
+            <strong>From MK10,000</strong>
+        </article>
+
+    </div>
+
+    <div class="cta-box">
+
+        <h3>Have a project in mind?</h3>
+
+        <p>
+            Tell me what you need and I'll let you know what I can
+            do, how long it may take and the final price.
+        </p>
+
+        <a
+            href="https://wa.me/265981387676?text=Hello%20Arsly,%20I%20would%20like%20to%20ask%20about%20one%20of%20your%20services."
+            target="_blank"
+            class="button primary"
+            onclick="trackEvent('service_contact', 'WhatsApp')">
+            Request a Service →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STORE ================= -->
+
+<section id="store" class="section">
+
+    <p class="eyebrow">05 / DIGITAL STORE</p>
+
+    <div class="section-heading">
+        <h2>Knowledge you<br><span>can take with you.</span></h2>
+
+        <p>
+            Digital resources created to help you learn, revise and
+            enjoy original writing.
+        </p>
+    </div>
+
+
+    <div class="store-grid">
+
+        <article class="store-card">
+
+            <div class="store-label">COMING PRODUCT</div>
+
+            <h3>Geography Study Guides</h3>
+
+            <p>
+                Clear and organised Geography revision materials
+                designed for students.
+            </p>
+
+            <strong>From MK5,000</strong>
+
+            <a
+                href="https://wa.me/265981387676?text=Hello%20Arsly,%20I'm%20interested%20in%20your%20Geography%20study%20guides."
+                target="_blank"
+                class="text-link"
+                onclick="trackEvent('product_interest', 'Geography Study Guides')">
+                Ask about this →
+            </a>
+
+        </article>
+
+
+        <article class="store-card">
+
+            <div class="store-label">COMING PRODUCT</div>
+
+            <h3>Geography Revision Pack</h3>
+
+            <p>
+                A larger collection of notes and study materials
+                for serious revision.
+            </p>
+
+            <strong>From MK10,000</strong>
+
+            <a
+                href="https://wa.me/265981387676?text=Hello%20Arsly,%20I'm%20interested%20in%20your%20Geography%20Revision%20Pack."
+                target="_blank"
+                class="text-link"
+                onclick="trackEvent('product_interest', 'Geography Revision Pack')">
+                Ask about this →
+            </a>
+
+        </article>
+
+
+        <article class="store-card">
+
+            <div class="store-label">POETRY</div>
+
+            <h3>Poetry Collection</h3>
+
+            <p>
+                A future collection of original poems exploring
+                love, life, relationships and human experience.
+            </p>
+
+            <strong>From MK5,000</strong>
+
+            <a
+                href="https://wa.me/265981387676?text=Hello%20Arsly,%20I'm%20interested%20in%20your%20poetry%20collection."
+                target="_blank"
+                class="text-link"
+                onclick="trackEvent('product_interest', 'Poetry Collection')">
+                Ask about this →
+            </a>
+
+        </article>
+
+
+        <article class="store-card">
+
+            <div class="store-label">E-BOOK</div>
+
+            <h3>Digital E-books</h3>
+
+            <p>
+                Longer-form writing and educational publications
+                released as downloadable digital books.
+            </p>
+
+            <strong>From MK5,000</strong>
+
+            <a
+                href="https://wa.me/265981387676?text=Hello%20Arsly,%20I'd%20like%20to know%20more%20about%20your%20digital%20books."
+                target="_blank"
+                class="text-link"
+                onclick="trackEvent('product_interest', 'Digital E-books')">
+                Ask about this →
+            </a>
+
+        </article>
+
+    </div>
+
+    <p class="store-note">
+        Digital products are delivered electronically after payment
+        is confirmed.
+    </p>
+
+</section>
+
+
+<!-- ================= RESOURCES ================= -->
+
+<section id="resources" class="section resource-section">
+
+    <p class="eyebrow">06 / FREE RESOURCES</p>
+
+    <div class="section-heading">
+        <h2>Learn something.<br><span>Share something.</span></h2>
+
+        <p>
+            Free educational content will be added here from time
+            to time, especially around Geography and education.
+        </p>
+    </div>
+
+    <div class="resource-grid">
+
+        <article>
+            <span>GEOGRAPHY</span>
+            <h3>Geography Explained</h3>
+            <p>
+                Simple explanations of Geography concepts designed
+                to make difficult topics easier to understand.
+            </p>
+        </article>
+
+        <article>
+            <span>EDUCATION</span>
+            <h3>Study Smarter</h3>
+            <p>
+                Practical ideas for studying, revising and making
+                better use of your learning time.
+            </p>
+        </article>
+
+        <article>
+            <span>CREATIVITY</span>
+            <h3>Writing & Poetry</h3>
+            <p>
+                Original writing and reflections from my creative
+                journey.
+            </p>
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PAYMENT ================= -->
+
+<section id="payment" class="section payment-section">
+
+    <p class="eyebrow">PAYMENT</p>
+
+    <div class="section-heading">
+        <h2>Simple payment<br><span>within Malawi.</span></h2>
+
+        <p>
+            For digital products and confirmed services, payment can
+            be made through Airtel Money or TNM Mpamba.
+        </p>
+    </div>
+
+    <div class="payment-grid">
+
+        <div class="payment-card">
+            <span>AIRTEL MONEY</span>
+            <h3>0981 387 676</h3>
+            <p>
+                Please send your name and the product/service you
+                are paying for after payment.
+            </p>
+        </div>
+
+        <div class="payment-card">
+            <span>TNM MPAMBA</span>
+            <h3>0892 019 376</h3>
+            <p>
+                Please send your name and the product/service you
+                are paying for after payment.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="section contact-section">
+
+    <p class="eyebrow">07 / CONTACT</p>
+
+    <h2>Let's build<br><span>something.</span></h2>
+
+    <p>
+        Have a project, service request, collaboration idea or
+        question? Get in touch.
+    </p>
+
+    <div class="contact-buttons">
+
+        <a
+            href="https://wa.me/265981387676"
+            target="_blank"
+            class="button primary"
+            onclick="trackEvent('contact_click', 'WhatsApp')">
+            WhatsApp Me
+        </a>
+
+        <a
+            href="mailto:arslymwamwaya9@gmail.com"
+            class="button secondary"
+            onclick="trackEvent('contact_click', 'Email')">
+            Email Me
+        </a>
+
+    </div>
+
+    <div class="contact-details">
+
+        <p>
+            <strong>Email</strong><br>
+            arslymwamwaya9@gmail.com
+        </p>
+
+        <p>
+            <strong>WhatsApp</strong><br>
+            +265 981 387 676
+        </p>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-brand">ARSly MWAMWAYA</div>
+
+    <p>
+        Geography • Education • Poetry • Digital Creativity
+    </p>
+
+    <p>
+        © 2026 Arsly Mwamwaya. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
 </html>
